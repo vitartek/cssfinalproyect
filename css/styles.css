@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s ease all;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #f4f4f4;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 1.5rem 0;
+  position: relative;
+}
+header .header-logo {
+  max-width: 2rem;
+}
+header nav {
+  background-color: hsla(108, 79%, 35%, 0.918);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+header nav ul a {
+  display: block;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 3rem;
+}
+header nav ul a:hover {
+  background: #ffffff;
+  color: #111111;
+}
+
+main .hero {
+  padding: 0 0 1.5rem 0;
+}
+main .hero img {
+  width: 100%;
+  box-shadow: 1px 5px 10px hsla(0, 0%, 7%, 0.187);
+  border-radius: 1rem;
+}
+main .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+main .card {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 3px 7px rgba(17, 17, 17, 0.192);
+  transition: 0.2s ease all;
+}
+main .card:hover {
+  box-shadow: 0 5px 10px rgba(17, 17, 17, 0.328);
+}
+main .card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+main .card-body {
+  padding: 1rem;
+}
+main .card h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: hsl(108, 79%, 35%);
+  margin-bottom: 0.5rem;
+}
+main .card p {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #111111;
+  line-height: 1.5em;
+}
+
+footer img {
+  max-width: 2rem;
+}
+
+footer {
+  margin-top: 1.5rem;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .row > :nth-child(2) {
+  margin-left: 3rem;
+}
+footer img {
+  max-width: 4rem;
+  min-width: 3rem;
+}
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+}
+footer li {
+  margin-bottom: 0.7rem;
+}
+footer li span {
+  font-size: 0.9em;
+  color: #f1f1f1;
+}
+footer .container {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  background-color: rgb(14, 14, 14);
+}/*# sourceMappingURL=styles.css.map */
